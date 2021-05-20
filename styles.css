@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header {
+  background: #fb004b;
+  background: -webkit-gradient(linear, left top, right top, from(#fb004b), to(#fbc84b));
+  background: linear-gradient(90deg, #fb004b 0%, #fbc84b 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 75px;
+  padding-left: 70px;
+  padding-right: 70px;
+  -webkit-box-shadow: 0px 0px 20px 3px #bfbfbf;
+          box-shadow: 0px 0px 20px 3px #bfbfbf;
+}
+
+header a {
+  color: white;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header #header-title {
+  font-size: 35px;
+  letter-spacing: 4px;
+}
+
+header #header-contact-me-btn {
+  padding: 15px;
+  font-size: 20px;
+  color: #fb5e4b;
+  border-radius: 30px;
+  background-color: white;
+  margin: 15px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  background: #fb004b;
+  background: -webkit-gradient(linear, left top, right top, from(#fb004b), to(#fbc84b));
+  background: linear-gradient(90deg, #fb004b 0%, #fbc84b 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 75px;
+  -webkit-box-shadow: 0px 0px 20px 3px #bfbfbf;
+          box-shadow: 0px 0px 20px 3px #bfbfbf;
+  margin-top: auto;
+}
+
+h1 {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+
+p {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.single-space {
+  height: 50px;
+}
+
+.card {
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 20px 3px #bfbfbf;
+          box-shadow: 0px 0px 20px 3px #bfbfbf;
+  border-radius: 10px;
+  width: 450px;
+  text-align: center;
+  padding: 22px;
+  background-color: #fb5e4b;
+  color: white;
+}
+
+#main-container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+#card-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#contact-me-div {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #fb5e4b;
+  color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 20px 3px #bfbfbf;
+          box-shadow: 0px 0px 20px 3px #bfbfbf;
+  padding: 22px;
+  width: 1455px;
+}
+
+#image {
+  width: 1500px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-box-shadow: 0px 0px 20px 3px #bfbfbf;
+          box-shadow: 0px 0px 20px 3px #bfbfbf;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,116 @@
+$background-color: white;
+$header-color: rgb(251,0,75);
+$header-color-gradient: linear-gradient(90deg, rgba(251,0,75,1) 0%, rgba(251,200,75,1) 100%);
+$card-color: #fb5e4b;
+$header-text: white;
+$shadow: 0px 0px 20px 3px #bfbfbf;
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background: $header-color;
+    background: $header-color-gradient;
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    padding-left: 70px;
+    padding-right: 70px;
+    box-shadow: $shadow;
+
+    a {
+        color: $header-text;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #header-title {
+        font-size: 35px;
+        letter-spacing: 4px;
+    }
+    #header-contact-me-btn {
+        padding: 15px;
+        font-size: 20px;
+        color: $card-color;
+        border-radius: 30px;
+        background-color: $background-color;
+        margin: 15px;
+        cursor: pointer;
+        letter-spacing: 2px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+footer {
+    background: $header-color;
+    background: $header-color-gradient;
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    box-shadow: $shadow;
+    margin-top: auto;
+}
+h1 {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}
+p {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.single-space {
+    height: 50px;
+}
+.card {
+    margin: 20px;
+    box-shadow: $shadow;
+    border-radius: 10px;
+    width: 450px;
+    text-align: center;
+    padding: 22px;
+    background-color: $card-color;
+    color: white;
+}
+
+#main-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    // border: 1px solid black;
+    padding: 20px;
+}
+#card-parent {
+    display: flex;
+}
+#contact-me-div {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: $card-color;
+    color: white;
+    border-radius: 10px;
+    box-shadow: $shadow;
+    padding: 22px;
+    width: 1455px;
+}
+#image {
+    width: 1500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: $shadow;
+}
